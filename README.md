@@ -62,11 +62,7 @@ Welcome to my **COHORT 2.0** learning repository! 🎯 This is my complete journ
 | Assignment | Status | Description | Topics Covered | Completion Date |
 |------------|--------|-------------|----------------|-----------------|
 | **Assignment 1** | ✅ **Completed** | Foundation concepts and basic web structure | HTML5, CSS3 fundamentals, responsive design basics | [Date] |
-| **Assignment 2** | ⏳ **Upcoming** | JavaScript fundamentals and DOM manipulation | ES6+, DOM, event handling, async programming | - |
-| **Assignment 3** | 📋 **Pending** | React component development | Components, props, state, hooks | - |
-| **Assignment 4** | 📋 **Pending** | Backend API development | Node.js, Express.js, RESTful APIs | - |
-| **Assignment 5** | 📋 **Pending** | Database integration | MongoDB, data modeling, CRUD operations | - |
-| **Assignment 6** | 📋 **Pending** | Full stack application | Complete MERN stack integration | - |
+
 
 ### 🎯 Current Challenge
 ```
