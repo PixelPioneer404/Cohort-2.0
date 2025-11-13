@@ -1,2 +1,11 @@
-let a = NaN
-console.log(undefined+1)
+let day = prompt("Enter a day number")
+switch(day){
+    case '1': console.log("Monday")
+    case '2': console.log("Tuesday")
+    case '3': console.log("Wednesday")
+    case '4': console.log("Thursday")
+    case '5': console.log("Friday")
+    case '6': console.log("Saturday")
+    case '7': console.log("Sunday")
+    default: console.log("Invalid Day")
+}
