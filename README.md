@@ -63,6 +63,7 @@ Welcome to my **COHORT 2.0** learning repository! 🎯 This is my complete journ
 |------------|--------|-------------|----------------|-----------------|
 | **Assignment 1** | ✅ **Completed** | Javascript Basics | variables, datatypes, strings | 13/11/25 |
 | **Assignment 2** | ✅ **Completed** | Javascript Basics | operators, control flow(if-else, switch case etc.) | 13/11/25 |
+| **Assignment 3** | ✅ **Completed** | Javascript Basics | Conditional Operators and loops | 14/11/25 |
 
 ## 📁 Repository Structure
 
@@ -81,19 +82,6 @@ COHORT 2.0/
 ├── Projects/                   # Major projects and applications
 └── Resources/                  # Learning materials and references
 ```
-
-## 🎖️ Achievements & Milestones
-
-### 🏆 Completed Milestones
-- ✅ **Assignment 1**: Successfully completed fundamental concepts
-- 🎯 **HTML/CSS Mastery**: Built responsive layouts and modern designs
-- 📚 **Course Enrollment**: Officially enrolled in COHORT 2.0 program
-
-### 🎯 Upcoming Goals
-- 🚀 Complete Assignment 2 - JavaScript fundamentals
-- 💡 Build first interactive web application
-- 🔧 Master React component architecture
-- 🌐 Deploy first full-stack application
 
 ## 🤝 Connect & Collaborate
 
