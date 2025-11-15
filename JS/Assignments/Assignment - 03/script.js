@@ -154,7 +154,7 @@ for (let i = 0; i < WITHDRAWLS; i++) {
         withdrawalAmount = prompt(`Enter the withdrawal amount(withdrawal left: ${WITHDRAWLS - i}):`)
     }
     withdrawalAmount = Number(withdrawalAmount)
-    if (withdrawalAmount < ACC_BALANCE) {
+    if (withdrawalAmount <= ACC_BALANCE) {
         console.log(`${withdrawalAmount} is deducted`)
         ACC_BALANCE -= withdrawalAmount
         console.log(`Balance Left: ${ACC_BALANCE}`)
