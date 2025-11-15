@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Counter - Increament, Decreament and Reset !</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-black">
+    <div class="w-screen h-screen fixed">
+        <img src="./assets/bg.png" alt="backgroun-image" class="w-full h-full object-center object-cover">
+    </div>
+    <section class="w-screen h-screen relative flex flex-col justify-center items-center gap-10">
+        <p
+            class="px-5 py-2 bg-white/10 border border-white/20 shadow-2xl rounded-full mb-[-50px] text-white font-medium font-mono text-sm">
+            Increament, Decreament & Reset !</p>
+        <h1 class="font-sans font-bold text-white text-[8rem]">COUNTER</h1>
+        <div
+            class="pb-10 w-[30vw] h-[40vh] flex flex-col justify-center items-center gap-8 rounded-4xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-xl">
+            <p id="count" class="text-[100px] font-sans font-bold text-white transition-all duration-150 ease-in-out">0</p>
+            <div class="flex flex-row gap-5 justify-center items-center">
+                <div class="flex flex-col gap-5 justify-center items-center">
+                    <button id="inc-btn"
+                        class="cursor-pointer active:scale-90 hover:scale-105 transition-all duration-300 ease-in-out text-base text-white/80 font-sans font-medium w-35 h-14 rounded-full shadow-md bg-[#80ed99]/70">Increament</button>
+                    <button id="dec-btn"
+                        class="cursor-pointer active:scale-90 hover:scale-105 transition-all duration-300 ease-in-out text-base text-white/80 font-sans font-medium w-35 h-14 rounded-full shadow-md bg-[#f9c74f]/90">Decreament</button>
+                </div>
+                <button id="reset-btn"
+                    class="cursor-pointer active:scale-90 hover:scale-105 transition-all duration-300 ease-in-out text-base text-white/80 font-sans font-medium w-35 h-33 rounded-4xl shadow-md bg-[#e56b6f]">Reset</button>
+            </div>
+        </div>
+        <p class="absolute bottom-5 left-1/2 -translate-x-1/2 text-white opacity-60 text-sm font-normal font-sans">Designed &
+            Developed with ❤️ by Rajbeer Saha
+        </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
