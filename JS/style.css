@@ -1,3 +1,8 @@
 body {
     background-color: black;
 }
+
+.switch-btn {
+    padding: 20px 10px;
+    background-color: red;
+}
