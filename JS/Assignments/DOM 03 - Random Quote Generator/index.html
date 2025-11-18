@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-black">
+    <img src="./assets/bg.png" alt="bg-img" class="w-screen h-screen fixed z-0 object-cover object-center">
+    <main class="w-screen h-screen fixed z-1 flex flex-col justify-center items-center gap-10">
+        <div
+            class="relative w-[40vw] h-[30vh] bg-white/10 backdrop-blur-md rounded-4xl border border-white/20 p-10 text-wrap flex justify-center items-center text-center">
+            <img src="./assets/quote-symbol.png" alt="quote symbol"
+                class="absolute top-2 opacity-40 w-25 h-25 scale-60 object-cover object-center left-1/2 -translate-x-1/2">
+            <p id="quote-txt" class="text-white text-xl font-normal font-sans italic text-center"></p>
+        </div>
+        <button id="generate-btn"
+            class="px-10 py-5 text-black font-sans font-medium text-xl bg-white shadow-2xl rounded-4xl cursor-pointer hover:scale-105 active:scale-90 transition-all duration-300 ease-in-out">
+            Generate Quote
+        </button>
+    </main>
+    <p class="absolute bottom-5 left-1/2 -translate-x-1/2 text-white opacity-60 text-sm font-normal font-sans">Designed
+        &
+        © 2025 Designed & Developed with ❤️ by Rajbeer Saha
+    </p>
+    <script src="script.js"></script>
+</body>
+
+</html>
