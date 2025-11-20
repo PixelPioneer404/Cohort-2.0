@@ -67,6 +67,8 @@ Welcome to my **COHORT 2.0** learning repository! 🎯 This is my complete journ
 | **Assignment 4** | ✅ **Completed** | Javascript Basics | Functions, Arrays and Objects | 15/11/25 |
 | **Assignment 5** | ✅ **Completed** | DOM | Simple Counter | 15/11/25 |
 | **Assignment 6** | ✅ **Completed** | DOM | Random Anime Generator | 15/11/25 |
+| **Assignment 6** | ✅ **Completed** | DOM | Random Quote Generator | 18/11/25 |
+| **Assignment 6** | ✅ **Completed** | DOM | Downloading Effect | 20/11/25 |
 
 ## 📁 Repository Structure
 
