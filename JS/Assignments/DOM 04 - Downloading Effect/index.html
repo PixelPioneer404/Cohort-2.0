@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloading Effect</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <main class="w-screen h-screen bg-black flex justify-center items-center">
+        <div class="w-[30vw] bg-white rounded-4xl flex flex-col justify-center items-center gap-8 p-6 px-8">
+            <div class="w-full flex flex-col gap-4 justify-center items-center">
+                <p class="text-base text-black font-sans font-medium">
+                    Click the download button below to download <span class="font-bold text-teal-600">Video.mp4</span>
+                </p>
+                <div class="w-full flex flex-row justify-between items-center gap-2">
+                    <div class="w-[90%] h-5 rounded-full overflow-hidden shadow border">
+                        <div id="progress" class="h-full w-0 bg-green-500"></div>
+                    </div>
+                    <p id="progressDig" class="text-xl font-mono font-medium text-black">0%</p>
+                </div>
+            </div>
+            <div class="flex flex-row w-full justify-between items-center">
+                <div class="flex flex-col gap-1 items-start justify-center">
+                    <p class="font-sans font-medium text-black/60 text-sm"><span
+                            class="font-bold text-black/80">Title:</span> How to create a downloading effect</p>
+                    <p class="font-sans font-medium text-black/60 text-sm"><span
+                            class="font-bold text-black/80">Size:</span> 2.84 GB</p>
+                </div>
+                <button id="download-btn"
+                    class="px-5 py-3 rounded-full shadow hover:scale-105 active:scale-90 bg-green-400 text-white font-sans font-medium text-xl cursor-pointer transition-all duration-300 ease-in-out border border-green-500">Download</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
