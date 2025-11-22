@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="select-none">
+    <main class="w-screen h-screen flex justify-center items-center gap-20 flex-col">
+        <h1 class="font-mono font-bold text-[70px] text-white">Play Piano With Your Keyboard ! 🎹</h1>
+        <div class="h-[50%] relative grid gap-1 rounded-2xl overflow-hidden justify-center"
+            style="grid-template-columns: repeat(14, 100px);">
+            <div id="C3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">Q</p>
+                <p class="font-medium font-sans text-xl">C3</p>
+            </div>
+            <div id="D3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">W</p>
+                <p class="font-medium font-sans text-xl">D3</p>
+            </div>
+            <div id="E3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">E</p>
+                <p class="font-medium font-sans text-xl">E3</p>
+            </div>
+            <div id="F3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">R</p>
+                <p class="font-medium font-sans text-xl">F3</p>
+            </div>
+            <div id="G3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">T</p>
+                <p class="font-medium font-sans text-xl">G3</p>
+            </div>
+            <div id="A3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">Y</p>
+                <p class="font-medium font-sans text-xl">A3</p>
+            </div>
+            <div id="B3"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">U</p>
+                <p class="font-medium font-sans text-xl">B3</p>
+            </div>
+            <div id="C4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">I</p>
+                <p class="font-medium font-sans text-xl">C4</p>
+            </div>
+            <div id="D4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">O</p>
+                <p class="font-medium font-sans text-xl">D4</p>
+            </div>
+            <div id="E4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">P</p>
+                <p class="font-medium font-sans text-xl">E4</p>
+            </div>
+            <div id="F4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">Z</p>
+                <p class="font-medium font-sans text-xl">F4</p>
+            </div>
+            <div id="G4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">X</p>
+                <p class="font-medium font-sans text-xl">G4</p>
+            </div>
+            <div id="A4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">C</p>
+                <p class="font-medium font-sans text-xl">A4</p>
+            </div>
+            <div id="B4"
+                class="transition-all duration-200 ease-in-out bg-white flex flex-col pb-10 justify-end items-center gap-8">
+                <p class="font-semibold font-sans text-3xl text-orange-400">V</p>
+                <p class="font-medium font-sans text-xl">B4</p>
+            </div>
+            <div class="absolute top-0 left-[72px] w-full h-[60%] grid gap-11"
+                style="grid-template-columns: repeat(13, 60px);">
+                <div id="Cs3"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">1</p>
+                    <p class="font-medium font-sans text-sm text-white">C#3</p>
+                </div>
+                <div id="Ds3"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">2</p>
+                    <p class="font-medium font-sans text-sm text-white">D#3</p>
+                </div>
+                <div class="bg-black rounded-b-lg opacity-0 pointer-events-none"></div>
+                <div id="Fs3"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">3</p>
+                    <p class="font-medium font-sans text-sm text-white">F#3</p>
+                </div>
+                <div id="Gs3"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">4</p>
+                    <p class="font-medium font-sans text-sm text-white">G#3</p>
+                </div>
+                <div id="As3"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">5</p>
+                    <p class="font-medium font-sans text-sm text-white">A#3</p>
+                </div>
+                <div class="bg-black rounded-b-lg opacity-0 pointer-events-none"></div>
+                <div id="Cs4"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">6</p>
+                    <p class="font-medium font-sans text-sm text-white">C#4</p>
+                </div>
+                <div id="Ds4"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">7</p>
+                    <p class="font-medium font-sans text-sm text-white">D#4</p>
+                </div>
+                <div class="bg-black rounded-b-lg opacity-0 pointer-events-none"></div>
+                <div id="Fs4"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">8</p>
+                    <p class="font-medium font-sans text-sm text-white">F#4</p>
+                </div>
+                <div id="Gs4"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">9</p>
+                    <p class="font-medium font-sans text-sm text-white">G#4</p>
+                </div>
+                <div id="As4"
+                    class="transition-all duration-200 ease-in-out bg-black rounded-b-lg flex flex-col pb-4 justify-end items-center gap-2">
+                    <p class="font-semibold font-sans text-lg text-cyan-400">0</p>
+                    <p class="font-medium font-sans text-sm text-white">A#4</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <p class="absolute bottom-5 left-1/2 -translate-x-1/2 text-white opacity-60 text-sm font-normal font-sans">
+        © 2025 Designed & Developed with ❤️ by Rajbeer Saha
+    </p>
+    <script src="script.js"></script>
+</body>
+
+</html>
