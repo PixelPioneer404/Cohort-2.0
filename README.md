@@ -71,6 +71,7 @@ Welcome to my **COHORT 2.0** learning repository! 🎯 This is my complete journ
 | **Assignment 8** | ✅ **Completed** | DOM | Downloading Effect | 20/11/25 |
 | **Assignment 9** | ✅ **Completed** | DOM | Mapping Users on Frontend | 20/11/25 |
 | **Assignment 10** | ✅ **Completed** | DOM | Virtual Keyboard | 22/11/25 |
+| **Assignment 11** | ✅ **Completed** | Advance JS | OOPS | 06/12/25 |
 
 ## 📁 Repository Structure
 
