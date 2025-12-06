@@ -11,7 +11,7 @@ const laptop = {
         console.log(`${this.price} is the new price`);
     }
 }
-// Problem, for creating 10 laptops like this, we will have t create 10 different opject with thier unique names by which the code will become very large and unmanagable due to the var names
+// Problem, for creating 10 laptops libind() ensures a function remembers its correct this context when executed later by external code.ke this, we will have t create 10 different opject with thier unique names by which the code will become very large and unmanagable due to the var names
 
 //================SECTION 2: Classes and Objects (Reinforcement)================
 // Q4
